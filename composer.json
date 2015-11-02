@@ -1,0 +1,20 @@
+{
+    "name":        "darvinstudio/webmail-linker",
+    "description": "Collection of Email Providers' Webmail Sites.",
+    "keywords":    ["email", "webmail"],
+    "type":        "library",
+    "license":     "MIT",
+    "authors": [
+        {
+            "name":     "Thomas Bachem",
+            "email":    "mail@thomasbachem.com",
+            "homepage": "https://github.com/thomasbachem/webmail-linker"
+        }
+    ],
+    "require": {
+        "php": ">=5.3"
+    },
+    "autoload": {
+        "psr-4": { "": "" }
+    }
+}
