@@ -46,7 +46,7 @@ foreach($providers as $i => $provider) {
 	}
 
 	print "\x1B[7m";
-	print '(' . str_pad($i + 1, strlen($total), '0', STR_PAD_LEFT) . '/' . $total . ')';
+	print '(' . str_pad((string)($i + 1), strlen((string)$total), '0', STR_PAD_LEFT) . '/' . $total . ')';
 	print "\x1B[27m";
 	print "\x1B[1m";
 	print ' ' . $provider['name'] . "\n";
